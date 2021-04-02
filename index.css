@@ -20,7 +20,8 @@
     border-radius: 50%;
     position: relative;
     float: right;
-    margin-right: 80px;
+    margin-right: ;
+    margin-top: 100px;
     backgroung: #ff0033;
 
 }
@@ -33,17 +34,6 @@
     bottom: 0;
     margin-left: 60px;
     margin: botton -30px;
-}
-.main .section{
-    width:80px;
-    height: 80%;
-    margin-left: 130px;
-    margin-top: 60px;
-    position: absolute;
-    overflow: hidden;
-    background: #03031b;
-    box-shadow: 8px 8px 15px 0 rgba(0,0,0,0,7),-8px -8px 15px 0 rgba(0,0,0,0,6) ;
-
 }
 .main .section nav{
     width: 100%;
