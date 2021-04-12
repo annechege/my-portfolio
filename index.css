@@ -9,13 +9,11 @@
 }
 .main{
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-image: url(anne.jpg);
     background-size: cover;
     position: absolute;
-    overflow: hidden;
-    flex-direction: row;
-    
+    overflow: hidden!important;   
 
 }
 .main .section nav{
@@ -60,71 +58,24 @@
     background: #ff0033;
 }
 .main .section .intro{
-    padding-left:40%;
     color: white;
+    margin-top: 30px;
+    height: 100vh;
 }
-.main .section .intro img{
-    width: 500px;
-    height: 60vh;
-    float: right;
-    margin-right: 30px;
-    margin-top: 65%;
-    position:relative;
+.main .section .intro h1{
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-content{
+    width: 80%;
+    height: auto;
+    margin: 30px auto 0 auto;
 }
 
-.main .section .intro h1{
-    font-weight: bold;
-    font-size: 60px;
-    padding-bottom: 130px;
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
 }
-.main .section .intro p{
-    font-size: 20px;
-    padding-bottom: 10px; 
-}
-.main .section .intro h3{
-    padding-bottom: 10px; 
-}
-.main .section .intro i{
-    font-size: 30px;
-    margin-bottom: 20px; 
-}
-.main .section .intro .in-btn{
-   width: 150px;
-   height:40px;
-   background:yellow;
-   color:white;
-   margin:10px;
-   font: size 18px;
-   border: none;
-   border-radius: 30px;
-}
-.main .section .intro .btn-1{
-    width: 150px;
-    height: 50px;
-    background: none;
-    border: 2px solid white;
-    color: white;
-    font-size: 18px;
-    border-radius: 30px;
     
-}
-.image{
-    float: right;
-background-size: cover;
-}
-.content{
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    cursor: pointer;
-    align-items: center;
-}
-.aboutme{
-   background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-}
-.contact.info{
-    background-color: mediumblue;
-}
-.hobbies{
-    color:rgb(6, 28, 87);
-}
