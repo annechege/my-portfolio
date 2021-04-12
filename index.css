@@ -78,4 +78,48 @@
     position: absolute;
     background-color: rgba(0, 0, 0, .5);
 }
+.hobbies{
+    color:navy;
+} 
+.aboutme{
+    background-image: url(https://static.photocdn.pt/images/articles/2019/09/10/Best_Laptops_for_Photo_Editing_in_2019-1.jpg);
+}
+.me{
+    color: oldlace;
+    margin-top: 50px;
+    text-align: center;
+    font-style: oblique;
     
+}
+.word{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    margin: 30px;
+    font-style: oblique;
+    font-size: 30px;
+}
+.favorite{
+    color:rgb(253, 253, 253);
+    text-align: left;
+    font-size: 20px;
+}
+.anita{
+    color:rgb(253, 253, 253);
+    text-align: left;
+    font-size: 20px;
+}
+.contact-info{
+
+}
+.cont{
+    color:rgb(13, 3, 59);
+    text-align: center;
+    align-items: center;
+
+}
+.on{
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+}
+  
