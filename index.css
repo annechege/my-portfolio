@@ -108,18 +108,28 @@
     text-align: left;
     font-size: 20px;
 }
-.contact-info{
-
+.cont li{
+    background: grey;
+    padding: 20px;
+    color: white;
 }
 .cont{
     color:rgb(13, 3, 59);
     text-align: center;
     align-items: center;
-
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
 }
 .on{
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     font-style: oblique;
+    color:white;
 }
-  
+.body{
+    background-color: blue;
+}
+.content{
+    color: black;
+} 
