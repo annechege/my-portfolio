@@ -82,11 +82,12 @@
     color:navy;
 } 
 .aboutme{
-    background-image: url(https://static.photocdn.pt/images/articles/2019/09/10/Best_Laptops_for_Photo_Editing_in_2019-1.jpg);
+    background-image: url(https://www.xmg.gg/wp-content/uploads/background_fusion-15-1920x1080.jpg);
+    height: auto;
 }
 .me{
     color: oldlace;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     font-style: oblique;
     
@@ -102,16 +103,19 @@
     color:rgb(253, 253, 253);
     text-align: left;
     font-size: 20px;
+    content-visibility: 100%;
 }
 .anita{
     color:rgb(253, 253, 253);
     text-align: left;
     font-size: 20px;
+    content-visibility: 100%;
 }
 .cont li{
     background: grey;
     padding: 20px;
     color: white;
+    cursor: pointer;
 }
 .cont{
     color:rgb(13, 3, 59);
@@ -119,7 +123,8 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 50px;
+    margin: 90px;
+    padding-inline: 20px;
 }
 .on{
     text-align: center;
