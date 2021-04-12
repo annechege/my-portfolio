@@ -120,12 +120,11 @@ background-size: cover;
     align-items: center;
 }
 .aboutme{
-   /* background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-} */
-.word{
-    text-decoration-color: ivory;
-   
+   background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
-.me{
-  
+.contact.info{
+    background-color: mediumblue;
+}
+.hobbies{
+    color:rgb(6, 28, 87);
 }
